@@ -70,7 +70,7 @@ nav a {
 
 
 hr {
-    margin: 20px 0px;
+    margin: 15px 0px;
 }
 
 .my_picture {
@@ -94,6 +94,7 @@ hr {
 h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
 }
 
 
