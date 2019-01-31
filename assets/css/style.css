@@ -14,11 +14,7 @@ body {
     color: #777777;
 }
 
-img {
-    /* sizing */
-    width: 200px;
-    max-height: 200px;    
-}
+/* ********** NAV BAR ************ */
 
 /* entire navbar */
 .navbar {
@@ -66,9 +62,8 @@ nav a {
     display: flex;
 }
 
-/************ END OF NAVBAR ***********/
 
-
+/* *************** COMMON *******************  */
 
 .container_main {
     /* sizing */
@@ -77,12 +72,11 @@ nav a {
 
     /* styling */
     background-color: #ffffff;  
-    border: 1px solid #dddddd;
-   
+    border: 1px solid #dddddd;  
 }
 
 .container_header {
-    margin: 20px 20px;
+    padding: 20px 20px 10px;
 }
 
 .page_title {
@@ -95,11 +89,11 @@ hr {
     margin: 15px 0px;
 }
 
-
 .container_content {
     padding: 0 20px 25px;
 }
 
+/* ***************  ABOUT PAGE  *******************  */
 
 .my_picture {
     padding-right: 20px;
@@ -111,28 +105,22 @@ hr {
     line-height: 2.0rem;
 }
 
-
-
-
-
-
-.contact_me_form {
+img {
     /* sizing */
-    max-width: 920px;     /* 920 + left/right padding = 960 */
-    margin: 20px auto;
-    padding: 20px;
-
-    /* styling */
-    background-color: #ffffff;
+    width: 200px;
+    max-height: 200px;    
 }
 
-.form_container {
+
+/* ***************  CONTACT PAGE  *******************  */
+
+.container_form{
     display: flex;
     flex-direction: column;
 }
 
 .form_labels {
-    padding: 10px 0 5px;
+    padding: 5px  0;
 }
 
 .form_text_inputs {
@@ -143,12 +131,11 @@ hr {
 .submit {
     /* sizing */
     width: 100px;
-    margin: 20px 0;
+    margin-top: 20px;
     padding: 10px 10px;
 
     /* styling */
     color: white;
     border: 1px solid #4aaaa5;
     background-color: #4aaaa5;
-
 }
