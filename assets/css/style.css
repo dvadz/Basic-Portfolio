@@ -69,9 +69,37 @@ nav a {
 /************ END OF NAVBAR ***********/
 
 
+
+.container_main {
+    /* sizing */
+    width: 960px;
+    margin: 20px auto;
+
+    /* styling */
+    background-color: #ffffff;  
+    border: 1px solid #dddddd;
+   
+}
+
+.container_header {
+    margin: 20px 20px;
+}
+
+.page_title {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
 hr {
     margin: 15px 0px;
 }
+
+
+.container_content {
+    padding: 0 20px 25px;
+}
+
 
 .my_picture {
     padding-right: 20px;
@@ -79,22 +107,8 @@ hr {
 
 /* main content */
 .about_me {
-    /* sizing */
-    width: auto;
-    max-width: 920px;     /* 920 + left/right padding = 960 */
-    margin: 20px auto;
-    padding: 20px;
-
     /* styling */
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
     line-height: 2.0rem;
-}
-
-h1 {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: bold;
 }
 
 
