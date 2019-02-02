@@ -121,6 +121,8 @@ hr {
 .pimg {
     height: 200px;
     width: 280px;
+    
+    text-align: center;
 }
 
 .pimg1 {
@@ -136,6 +138,12 @@ hr {
 }
 
 .pimg_caption {
+    /* sizing */
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px; 
+       
+    /* styling */
     background-color: #4aaaa5;
 }
 
