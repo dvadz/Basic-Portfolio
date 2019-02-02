@@ -115,14 +115,30 @@ hr {
 
 .container_portfolio {
     display: flex;
+    justify-content: space-between;
 }
 
-.div_image {
-    width: 60%;
-    height: 100px;
-    margin: 10px;
-    background-color: red;
+.pimg {
+    height: 200px;
+    width: 280px;
 }
+
+.pimg1 {
+    background: url(../images/pimg1.png);
+}
+
+.pimg2 {
+    background: url(../images/pimg2.jpg);
+}
+
+.pimg3 {
+    background: url(../images/pimg3.jpg);
+}
+
+.pimg_caption {
+    background-color: #4aaaa5;
+}
+
 
 /* ***************  CONTACT PAGE  *******************  */
 
