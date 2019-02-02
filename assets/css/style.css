@@ -76,9 +76,10 @@ nav a {
     border: 1px solid #dddddd;  
 }
 
-.container_header {
-    padding: 20px 20px 10px;
+.container_border {
+    margin: 20px;
 }
+
 
 .page_title {
     color: #4aaaa5;
@@ -91,9 +92,7 @@ hr {
 }
 
 .container_content {                    
-    padding: 0 20px 25px;
-    width: 100%;                                                /*-------------------------------------------------------*/
-    border: 1px solid red;
+    width: 100%;                                                
 }
 
 /* ***************  ABOUT PAGE  *******************  */
