@@ -123,6 +123,10 @@ hr {
     width: 280px;
     
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .pimg1 {
@@ -141,7 +145,8 @@ hr {
     /* sizing */
     font-size: 1.2rem;
     color: white;
-    padding: 10px; 
+    padding: 10px;
+    margin-bottom: 10px;
        
     /* styling */
     background-color: #4aaaa5;
