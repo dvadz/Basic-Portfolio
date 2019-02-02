@@ -99,18 +99,16 @@ hr {
 
 .my_picture {
     padding-right: 20px;
+
+    /* sizing */
+    width: 200px;
+    max-height: 200px;    
 }
 
 /* main content */
 .about_me {
     /* styling */
     line-height: 2.0rem;
-}
-
-img {
-    /* sizing */
-    width: 200px;
-    max-height: 200px;    
 }
 
 /* ***************  PORTFOLIO PAGE  *******************  */
